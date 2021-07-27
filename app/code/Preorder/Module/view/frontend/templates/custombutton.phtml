@@ -1,0 +1,19 @@
+<?php
+
+    $product = $block->getCurrentProduct();
+		 
+    $id = $product->getId();
+	$name = $product->getName();
+	$sku = $product->getSku();
+
+    $getBaseUrl = $block->getUrl('preorder',['sku'=>$sku]);
+?>
+
+<?php 
+    $Preorder=$product->getData("preorder");
+if($Preorder==1)
+{
+    ?>
+    <a title="Pre Order" class="action primary tocart" id="product-addtocart-button" href="<?php echo $getBaseUrl; ?>"><span>Pre Order</span></a>
+<?php
+}

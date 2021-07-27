@@ -1,0 +1,33 @@
+.preorder{
+	background: #eae7e6;
+	background-image: none;
+	border: 2px solid #eae7e6;
+	color: #e05050;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: 600;
+	box-sizing: border-box;
+	vertical-align: middle;
+	text-align:center;
+	line-height: 2.2rem;
+	padding: 14px 17px;
+	font-size: 1.8rem;
+	margin-bottom: 15px;
+	width: 49%;
+	border-radius: 3px;
+}
+
+.preorder-index-index .qty{
+	text-align: center!important;
+}
+
+.quantity_div{
+	width:10.5%;
+}
+
+.preorder:hover{
+	background: #cb7f66;
+	color: #ffffff;
+	text-decoration: none;
+}
